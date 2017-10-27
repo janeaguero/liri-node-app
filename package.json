@@ -1,0 +1,25 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "keys.js",
+  "scripts": {
+    "test": "echo && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janeaguero/liri-node-app.git"
+  },
+  "author": "janeaguero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janeaguero/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/janeaguero/liri-node-app#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.83.0",
+    "twitter": "^1.7.1"
+  }
+}
